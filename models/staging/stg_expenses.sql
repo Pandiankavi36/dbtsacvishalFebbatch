@@ -21,4 +21,4 @@ select
         LOWER(approval_status) AS approval_status,
         approver_id
 from ranked_claims
-where rn =1;
+where rn =1
