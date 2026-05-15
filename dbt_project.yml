@@ -40,3 +40,16 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+    staging:
+      +database: DEMO_DB
+      +schema: staging
+      +materialized: table
+    
+    cleansed:
+      +database: DEMO_DB
+      +schema: cleansing
+      +materialized: table 
+      
+
+  
